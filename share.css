@@ -1,0 +1,28 @@
+body{
+    /* background-color: aqua; */
+    /* height:3000px; */
+    /* margin-top:400px; */
+     text-align: center; 
+    background:linear-gradient(to top, #4758ca,rgb(198, 196, 178)) ;
+}
+h2{
+    font-family: 'Montserrat','sans-serif';
+}
+
+span{
+    color: rgb(236, 131, 131);
+}
+p{
+    
+    font-family: 'Montserrat','sans-serif';   
+    font-weight: bold;
+    /* margin-bottom: 32px; */
+}
+a:hover{
+    
+    text-decoration:wavy;
+}
+a{
+    text-decoration: none;
+    color:rgb(200, 86, 86);
+}

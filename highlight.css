@@ -1,0 +1,51 @@
+h2{
+   /* font-weight: bolder; */
+   color:rgb(208, 0, 255);
+   font-size: 49px;
+   margin:0;
+}
+/* inline elements me margin nahi lagti top or bottom me but  box model m show hota ha but real world or webpage me show nahi hota */
+/*  or ek or important point inline element bhi do type ke hote hai ek hote hain non replacable inline element jaise ki anchor tag or dusre hote h replacable inline elemnt jaise ki img tag 
+or jaise ki humne clear kr diya tha anchor tag me margin top or bottm kaam nahi krti but image tag me margin top or bottom dono hi kaam karte hain */
+#description{
+    /* padding-bottom: 60px; */
+    margin:12px;
+}
+a{
+    background-color: rgb(248, 134, 122);
+    color:white;
+    padding:12px 44px;
+    font-size: 34px;
+    border-radius: 4px;
+    border:1px solid burlywood;
+    margin: 0;
+    display:inline-block;
+}
+a:hover{
+    background-color: #ff6a00;
+    text-decoration: none;
+}
+/* or we can add with header p */
+/* header p{
+    margin-bottom: 36px;
+} */
+ol{
+    /* color:#ff6a00; */
+    list-style: none;
+    width:500px;
+    margin:23px auto 0 auto;
+    padding:0px;
+}
+
+li{
+    padding:9px;
+     margin:32px; 
+     background-color:rgb(207, 118, 16);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+.highlight-goal{
+    /* margin:12px; */
+    /* color:blue; */
+    background-color:rgb(206, 137, 59);
+}
